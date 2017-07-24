@@ -19,19 +19,17 @@
 - 熟练使用 **React**, **Redux (dva)**, **Ant Design** 开发单页应用
 - 能使用 **Koa2 (Egg.js)** 框架搭建后端服务
 - 能使用 **Webpack** 实现项目打包构建, 会使用版本控制工具 **Git**, 懂得规范的团队开发流程
-- 懂得 **前端性能优化** 方面的知识, 了解 **HTTP** 常见知识, 会配置 **Nginx** 实现反向代理、Gzip、缓存等功能
+- 懂得 **前端性能优化** 方面的知识, 了解 **HTTP** 常见知识, 会配置 **Nginx** 实现Gzip、缓存、负载均衡等功能
 
 ## 个人项目
 
-*所有项目独立完成*
+ - [单页博客](http://yinfengblog.com) 源码: [[前端](https://github.com/accelerator-feng/AccBlog)][[服务端](https://github.com/accelerator-feng/AccBlogServer)] : 基于 **React + Redux + antd + Koa + MongoDB** 的响应式单页博客，完整的实现了前端、后端和部署，具有注册/登录(设置/修改头像)，播放器，文章浏览、评论、分类、归档等功能
 
- - [单页博客](http://yinfengblog.com) 源码: [[前端](https://github.com/accelerator-feng/AccBlog)][[服务端](https://github.com/accelerator-feng/AccBlogServer)] : 基于React + Redux + antd + Koa + MongoDB的响应式单页博客，完整的实现了前端、后端和部署，具有注册/登录(设置/修改头像)，播放器，文章浏览、评论、分类、归档等功能
+ - [迷宫冒险游戏](http://yinfengblog.xyz/roguelike-dungeon-crawler-game/) [[源码](https://github.com/accelerator-feng/roguelike-dungeon-crawler-game)] : 基于 **React 和 Redux** 的迷宫冒险游戏。随机生成物品、敌人和迷宫地图(覆盖战争迷雾)，玩家可以在地图上捡到药品和武器，通过打败敌人提升等级(基于生命值和攻击力)，打败最后一关的boss即可获胜。兼容移动设备
 
- - [迷宫冒险游戏](http://yinfengblog.xyz/roguelike-dungeon-crawler-game/) [[源码](https://github.com/accelerator-feng/roguelike-dungeon-crawler-game)] : 基于React和Redux的迷宫冒险游戏。随机生成物品和迷宫地图，玩家可以在地图上捡到药品和武器，通过打败敌人提升等级(基于生命值和攻击力)，地图有战争迷雾覆盖，打败最后一关的boss即可获胜。兼容移动设备
+ - [井字棋游戏](http://yinfengblog.xyz/Tic-Tac-Toe/) : 用jQuery实现的人机对战的井字棋游戏(保证AI不会输棋)。兼容主流浏览器及移动设备
 
- - 模态框组件 [[源码](https://github.com/accelerator-feng/Acc-msg-component)] : 基于原生JS的模态框组件。设计了Widget抽象类，统一了组件的生命周期。可自定义位置皮肤等各种参数，支持拖动功能。支持AMD，ES6模块引入以及全局引入
-
-  - [待办事项Web应用](http://yinfengblog.xyz/TodoList/) [[源码](https://github.com/accelerator-feng/TodoList)] : 使用jQuery，通过localStorage实现本地读取与存储，具有增查删改、定时、响铃提醒等功能。兼容主流浏览器及移动设备
+ - [待办事项Web应用](http://yinfengblog.xyz/TodoList/) : 使用jQuery，通过localStorage实现本地读取与存储，具有增查删改、定时、响铃提醒等功能。兼容主流浏览器及移动设备
 
 ## 技术文章
 
